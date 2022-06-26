@@ -1,0 +1,35 @@
+@use 'functions' as *;
+@use 'breakpoints' as *;
+@use 'colors' as *;
+@use 'fonts' as *;
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+.hidden {
+  display: none !important;
+}
+
+body {
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items:stretch;
+  min-height: 100vh;
+  font-family: $font;
+  font-size: $font-size;
+  font-weight: $body-weight-normal;
+  line-height: 1.5;
+  padding: 1.5rem;
+
+  @media only screen and (min-width: $desktop-layout) {
+
+  }
+}

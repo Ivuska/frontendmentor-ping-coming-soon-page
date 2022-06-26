@@ -1,0 +1,9 @@
+@use 'breakpoints' as *;
+@use 'functions' as *;
+
+.is-responsive {
+  display: flex;
+  flex-shrink: 1;
+  margin: 0;
+  padding: 0;
+}
